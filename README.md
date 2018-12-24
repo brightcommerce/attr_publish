@@ -4,6 +4,8 @@ Provides scopes for finding published and unpublished items, and (for date/datet
 
 Allows a given boolean, date, or datetime column to indicate whether a model object is published. A boolean published column is just an on/off flag. A date/datetime column requires the value of published column to be before "current" for the object to be published.
 
+AttrPublish is extracted from the Brightcommerce platform and is in use by several projects.
+
 ## Installation
 
 To install add the line to your Gemfile:
