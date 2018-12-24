@@ -1,6 +1,6 @@
 # AttrPublish
 
-Provides scopes for finding published and unpublished items, and (for date/datetime published columns) for returning recent or upcoming items. Also provides a set of convenient instance methods for publishing and unpubishing a record.
+Provides scopes for finding published and unpublished items, and (for date/datetime published columns) for returning recent or upcoming items. Also provides a set of convenient instance methods for publishing and unpublishing a record.
 
 Allows a given boolean, date, or datetime column to indicate whether a model object is published. A boolean published column is just an on/off flag. A date/datetime column requires the value of published column to be before "current" for the object to be published.
 
@@ -13,10 +13,6 @@ gem 'attr_publish'
 ```
 
 And `bundle install`.
-
-## Dependencies
-
-AttrPublish is developed as an ActiveRecord model concern, therefore it is dependent upon ActiveSupport.
 
 ## How To Use
 
@@ -108,7 +104,7 @@ end
 
 ## Dependencies
 
-AttrSequence gem has the following runtime dependencies:
+AttrPublish gem has the following runtime dependencies:
 - activerecord >= 5.1.4
 - activesupport >= 5.1.4
 
