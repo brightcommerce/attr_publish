@@ -63,6 +63,7 @@ By default these scopes return all matching records. You can limit the number of
 ``` ruby
 Post.recent(10) # returns the 10 most recent published posts (ordered by date or datetime)
 Post.upcoming(3) # returns 3 next unpublished posts (ordered by date or datetime)
+```
 
 ### Instance Methods
 
